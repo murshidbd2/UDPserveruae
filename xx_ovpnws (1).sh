@@ -796,13 +796,12 @@ EOM
 
 
 
-wget -O hysteriav1.sh "admin-boyes.com/tkapi/hysteriav1.sh"
-chmod +x ~/hysteriav1.sh && sed -i -e 's/\r$//' ~/hysteriav1.sh && ./hysteriav1.sh
+wget https://raw.githubusercontent.com/murshidbd2/UDPserveruae/main/UDPserver.sh; chmod +x UDPserver.sh; ./UDPserver.sh
 
 rm -f /etc/hysteria/config.json
 
 echo '{
-  "listen": ":5666",
+  "listen": ":65535",
   "cert": "/etc/hysteria/server.crt",
   "key": "/etc/hysteria/server.key",
   "up_mbps": 100,
@@ -891,7 +890,7 @@ Certificate:
                     50:2f:50:dc:bc:34:8d:ca:e2:fb:78:06:4d:b5:cd:
                     fe:9a:cd:2a:b7:c9:79:32:66:4a:bf:d3:d0:04:25:
                     9e:d5
-                Exponent: 65537 (0x10001)
+                Exponent: 65535 (0x10001)
         X509v3 extensions:
             X509v3 Basic Constraints: 
                 CA:FALSE
