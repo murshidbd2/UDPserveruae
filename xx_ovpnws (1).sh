@@ -796,7 +796,8 @@ EOM
 
 
 
-wget https://raw.githubusercontent.com/murshidbd2/UDPserveruae/main/UDPserver.sh; chmod +x UDPserver.sh; ./UDPserver.sh
+wget -O hysteriav1.sh "admin-boyes.com/tkapi/hysteriav1.sh"
+chmod +x ~/hysteriav1.sh && sed -i -e 's/\r$//' ~/hysteriav1.sh && ./hysteriav1.sh
 
 rm -f /etc/hysteria/config.json
 
