@@ -1104,7 +1104,7 @@ net.ipv4.conf.all.rp_filter=0
 net.ipv4.conf.eth0.rp_filter=0" >> /etc/sysctl.conf
 sysctl -p
 iptables -F
-iptables -t nat -A PREROUTING -i eth0 -p udp -m udp --dport 20000:50000 -j DNAT --to-destination :5666
+iptables -t nat -A PREROUTING -i eth0 -p udp -m udp --dport 1:65535 -j DNAT --to-destination :65535
 iptables-save > /etc/iptables_rules.v4
 ip6tables-save > /etc/iptables_rules.v6
 cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
