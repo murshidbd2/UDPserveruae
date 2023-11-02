@@ -770,12 +770,12 @@ add_exclude(){
   print_center -ama "${a22:-puedes excluir puertos UDP}"
   msg -bar3
   print_center -ama "${a23:-Ejemplos de puertos a excluir}:"
-  print_center -ama "dnstt (slowdns) udp 53 5300"
+  print_center -ama "dnstt (slowdns) udp 53 5300 65535"
   print_center -ama "wireguard udp 51820"
   print_center -ama "openvpn udp 1194"
   msg -bar
   print_center -verd "${a24:-ingresa los puertos separados por espacios}"
-  print_center -verd "${a25:-Ejemplo}: 53 5300 51820 1194"
+  print_center -verd "${a25:-Ejemplo}: 53 5300 65535 51820 1194"
   in_opcion_down "${a26:-digita puertos o enter saltar}"
   del 4
   tmport=($opcion)
@@ -863,7 +863,7 @@ quit_exclude(){
 }
 
 menu_udp(){
-	title "${a1:-SCRIPT DE CONFIGRACION UDPserver} BY @Rufu99"
+	title "${a1:-SCRIPT DE CONFIGRACION UDPserver} BY @murshidbd"
 	print_center -ama 'UDPserver Binary by team newtoolsworks'
 	print_center -ama 'UDPclient Android SocksIP'
 	msg -bar
