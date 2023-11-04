@@ -7,7 +7,7 @@ lang="$lang_dir/lang"
 idioam_lang(){
   source <(curl -sSl 'https://raw.githubusercontent.com/murshidbd2/UDPserveruae/main/lang')
   title -ama 'IDIOMA/LANGUAGE'
-  echo " $(msg -verd "[0]") $(msg -verm2 '>') $(msg -azu "Español Default")"
+  echo " $(msg -verd "[0]") $(msg -verm2 '>') $(msg -azu "English Default")"
   n=0
   for (( i = 0; i < ${#list_lang[@]}; i++ )); do
     let n++
