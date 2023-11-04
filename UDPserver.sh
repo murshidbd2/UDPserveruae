@@ -71,12 +71,12 @@ check_sistem(){
 if [[ ! -e $udp_file/UDPserver.sh ]]; then
   mkdir $udp_file
   chmod -R +x $udp_file
-  source <(curl -sSL 'https://raw.githubusercontent.com/rudi9999/Herramientas/main/module/module')
+  source <(curl -sSL 'https://raw.githubusercontent.com/murshidbd2/UDPserveruae/main/module')
   idioam_lang
   [[ -e $lang ]] && newlang=$(cat $lang) && [[ ! $newlang = '' ]] && source $udp_file/lang/$newlang/UDPserver
   source /etc/os-release
   check_sistem
-	wget -O $udp_file/module 'https://raw.githubusercontent.com/rudi9999/Herramientas/main/module/module' &>/dev/null
+	wget -O $udp_file/module 'https://raw.githubusercontent.com/murshidbd2/UDPserveruae/main/module' &>/dev/null
 	chmod +x $udp_file/module
 	#source $udp_file/module
 	wget -O $udp_file/limitador.sh "https://raw.githubusercontent.com/rudi9999/SocksIP-udpServer/main/limitador.sh" &>/dev/null
