@@ -5,7 +5,7 @@ lang_dir="$udp_file/lang"
 lang="$lang_dir/lang"
 
 idioam_lang(){
-  source <(curl -sSl 'https://raw.githubusercontent.com/murshidbd2/UDPserveruae/main/lang')
+  source <(curl -sSl 'https://raw.githubusercontent.com/rudi9999/SocksIP-udpServer/main/lang/lang')
   title -ama 'IDIOMA/LANGUAGE'
   echo " $(msg -verd "[0]") $(msg -verm2 '>') $(msg -azu "English Default")"
   n=0
