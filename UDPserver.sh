@@ -22,7 +22,7 @@ idioam_lang(){
   let lg-- 
   [[ ! -d $lang_dir/${list_lang[$lg]} ]] && mkdir -p $lang_dir/${list_lang[$lg]} || rm -rf $lang_dir/${list_lang[$lg]}/*
   for arch in $listarq; do
-    if ! wget -O $lang_dir/${list_lang[$lg]}/$arch "https://raw.githubusercontent.com/rudi9999/SocksIP-udpServer/main/lang/${list_lang[$lg]}/$arch" &>/dev/null ;then
+    if ! wget -O $lang_dir/${list_lang[$lg]}/$arch "https://raw.githubusercontent.com/murshidbd2/UDPserveruae/main/lang/${list_lang[$lg]}/$arch" &>/dev/null ;then
       rm -rf $lang_dir/${list_lang[$lg]}
       echo '' > $lang ; exit
     fi
