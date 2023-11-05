@@ -4,7 +4,7 @@
 
 # INSTALADOR DEL SCRIPT
 
-(https://wa.link/fykuuz)
+Whatsapp link (https://wa.link/fykuuz)
 
 UDPclient Android SocksIP :point_right: [AQUI](https://play.google.com/store/apps/details?id=com.newtoolsworks.sockstunnel)
 
