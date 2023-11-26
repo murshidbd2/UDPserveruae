@@ -1,6 +1,6 @@
 # SCRIPT UDPSERVER BY [@murshidbd](https://wa.link/fykuuz)
 
-![Selección_022](https://i.postimg.cc/vB64CdjH/Screenshot-21.png)
+![Selección_022](https://i.postimg.cc/rm9g4vHF/68747470733a2f2f692e706f7374696d672e63632f7642363443646a482f53637265656e73686f742d32312e706e67.png)
 
 # INSTALADOR DEL SCRIPT
 
